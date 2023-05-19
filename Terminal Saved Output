@@ -1,0 +1,351 @@
+Last login: Thu May 18 16:39:46 on console
+macbook@gadgetzones-MacBook-Air ~ % ls
+Applications		Movies			eclipse-workspace
+Desktop			Music			test
+Documents		Pictures		yy
+Downloads		Public			yy.pub
+Library			eclipse
+macbook@gadgetzones-MacBook-Air ~ % cd Documents 
+macbook@gadgetzones-MacBook-Air Documents % ls
+Array.playground		Optional.playground
+Class and Struct.swift		Shop Advertisement.html
+ClassAndFunction.playground	SnakeAndLadder.playground
+Enum.playground			Swift Basics Programs
+Exercixe1.playground		shop.html
+MyPlayground.playground
+macbook@gadgetzones-MacBook-Air Documents % mkdir CfpSks 
+macbook@gadgetzones-MacBook-Air Documents % ls
+Array.playground		MyPlayground.playground
+CfpSks				Optional.playground
+Class and Struct.swift		Shop Advertisement.html
+ClassAndFunction.playground	SnakeAndLadder.playground
+Enum.playground			Swift Basics Programs
+Exercixe1.playground		shop.html
+macbook@gadgetzones-MacBook-Air Documents % cd CfpSks
+macbook@gadgetzones-MacBook-Air CfpSks % cd Ratings 
+macbook@gadgetzones-MacBook-Air Ratings % git init
+Initialized empty Git repository in /Users/macbook/Documents/CfpSks/Ratings/.git/
+macbook@gadgetzones-MacBook-Air Ratings % git remote add origin https://github.com/sks123git/ratings-app.git
+macbook@gadgetzones-MacBook-Air Ratings % git add .    
+macbook@gadgetzones-MacBook-Air Ratings % git commit -m "Initial submission"
+[main (root-commit) d47001c] Initial submission
+ 69 files changed, 1196 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 Ratings.xcodeproj/project.pbxproj
+ create mode 100644 Ratings.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+ create mode 100644 Ratings.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+ create mode 100644 Ratings.xcodeproj/project.xcworkspace/xcuserdata/macbook.xcuserdatad/UserInterfaceState.xcuserstate
+ create mode 100644 Ratings.xcodeproj/xcuserdata/macbook.xcuserdatad/xcschemes/xcschememanagement.plist
+ create mode 100644 Ratings/.DS_Store
+ create mode 100644 Ratings/AppDelegate.swift
+ create mode 100644 Ratings/Assets.xcassets/.DS_Store
+ create mode 100644 Ratings/Assets.xcassets/AccentColor.colorset/Contents.json
+ create mode 100644 Ratings/Assets.xcassets/AppIcon.appiconset/Contents.json
+ create mode 100644 Ratings/Assets.xcassets/Contents.json
+ create mode 100644 Ratings/Assets.xcassets/Images/.DS_Store
+ create mode 100644 Ratings/Assets.xcassets/Images/1Stars.png
+ create mode 100644 Ratings/Assets.xcassets/Images/1Stars@2x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/1Stars@3x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/2Stars.png
+ create mode 100644 Ratings/Assets.xcassets/Images/2Stars@2x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/2Stars@3x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/3Stars.png
+ create mode 100644 Ratings/Assets.xcassets/Images/3Stars@2x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/3Stars@3x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/4Stars.png
+ create mode 100644 Ratings/Assets.xcassets/Images/4Stars@2x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/4Stars@3x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/5Stars.png
+ create mode 100644 Ratings/Assets.xcassets/Images/5Stars@2x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/5Stars@3x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Contents.json
+ create mode 100644 Ratings/Assets.xcassets/Images/Gestures.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Gestures@2x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Gestures@3x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/1Stars.imageset/1Stars.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/1Stars.imageset/1Stars@2x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/1Stars.imageset/1Stars@3x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/1Stars.imageset/Contents.json
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/2Stars.imageset/2Stars.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/2Stars.imageset/2Stars@2x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/2Stars.imageset/2Stars@3x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/2Stars.imageset/Contents.json
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/3Stars.imageset/3Stars.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/3Stars.imageset/3Stars@2x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/3Stars.imageset/3Stars@3x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/3Stars.imageset/Contents.json
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/4Stars.imageset/4Stars.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/4Stars.imageset/4Stars@2x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/4Stars.imageset/4Stars@3x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/4Stars.imageset/Contents.json
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/5Stars.imageset/5Stars.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/5Stars.imageset/5Stars@2x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/5Stars.imageset/5Stars@3x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/5Stars.imageset/Contents.json
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/Contents.json
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/Gestures.imageset/Contents.json
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/Gestures.imageset/Gestures.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/Gestures.imageset/Gestures@2x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/Gestures.imageset/Gestures@3x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/Players.imageset/Contents.json
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/Players.imageset/Players.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/Players.imageset/Players@2x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Images/Players.imageset/Players@3x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Players.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Players@2x.png
+ create mode 100644 Ratings/Assets.xcassets/Images/Players@3x.png
+ create mode 100644 Ratings/Base.lproj/LaunchScreen.storyboard
+ create mode 100644 Ratings/Base.lproj/Main.storyboard
+ create mode 100644 Ratings/Info.plist
+ create mode 100644 Ratings/SceneDelegate.swift
+ create mode 100644 Ratings/ViewController.swift
+macbook@gadgetzones-MacBook-Air Ratings % git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/sks123git/ratings-app.git'
+macbook@gadgetzones-MacBook-Air Ratings % git remote  
+origin
+macbook@gadgetzones-MacBook-Air Ratings % git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/sks123git/ratings-app.git'
+macbook@gadgetzones-MacBook-Air Ratings % git push origin master 
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/sks123git/ratings-app.git'
+macbook@gadgetzones-MacBook-Air Ratings % git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/sks123git/ratings-app.git'
+macbook@gadgetzones-MacBook-Air Ratings % git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/sks123git/ratings-app.git'
+macbook@gadgetzones-MacBook-Air Ratings % git remote -v
+origin	https://github.com/sks123git/ratings-app.git (fetch)
+origin	https://github.com/sks123git/ratings-app.git (push)
+macbook@gadgetzones-MacBook-Air Ratings % git push -f origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/sks123git/ratings-app.git'
+macbook@gadgetzones-MacBook-Air Ratings % git status --oneline
+error: unknown option `oneline'
+usage: git status [<options>] [--] <pathspec>...
+
+    -v, --verbose         be verbose
+    -s, --short           show status concisely
+    -b, --branch          show branch information
+    --show-stash          show stash information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain[=<version>]
+                          machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --ignored[=<mode>]    show ignored files, optional modes: traditional, matching, no. (Default: traditional)
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules, optional when: all, dirty, untracked. (Default: all)
+    --column[=<style>]    list untracked files in columns
+    --no-renames          do not detect renames
+    -M, --find-renames[=<n>]
+                          detect renames, optionally set similarity index
+
+macbook@gadgetzones-MacBook-Air Ratings % git status -oneline 
+error: unknown switch `o'
+usage: git status [<options>] [--] <pathspec>...
+
+    -v, --verbose         be verbose
+    -s, --short           show status concisely
+    -b, --branch          show branch information
+    --show-stash          show stash information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain[=<version>]
+                          machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --ignored[=<mode>]    show ignored files, optional modes: traditional, matching, no. (Default: traditional)
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules, optional when: all, dirty, untracked. (Default: all)
+    --column[=<style>]    list untracked files in columns
+    --no-renames          do not detect renames
+    -M, --find-renames[=<n>]
+                          detect renames, optionally set similarity index
+
+macbook@gadgetzones-MacBook-Air Ratings % git status         
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Ratings.xcodeproj/project.xcworkspace/xcuserdata/macbook.xcuserdatad/UserInterfaceState.xcuserstate
+
+no changes added to commit (use "git add" and/or "git commit -a")
+macbook@gadgetzones-MacBook-Air Ratings % git push -f origin main  
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sks123git/ratings-app.git/'
+macbook@gadgetzones-MacBook-Air Ratings % git push -f origin main  
+Username for 'https://github.com': sks123git
+Password for 'https://sks123git@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sks123git/ratings-app.git/'
+macbook@gadgetzones-MacBook-Air Ratings % git push -f origin main
+Username for 'https://github.com': sks123git
+Password for 'https://sks123git@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sks123git/ratings-app.git/'
+macbook@gadgetzones-MacBook-Air Ratings % git push origin main 
+Username for 'https://github.com': sks123git
+Password for 'https://sks123git@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sks123git/ratings-app.git/'
+macbook@gadgetzones-MacBook-Air Ratings % git push -u origin main
+Username for 'https://github.com': sks123git
+Password for 'https://sks123git@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sks123git/ratings-app.git/'
+macbook@gadgetzones-MacBook-Air Ratings % git push origin main 
+Username for 'https://github.com': sks123git
+Password for 'https://sks123git@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/sks123git/ratings-app.git/'
+macbook@gadgetzones-MacBook-Air Ratings % git push origin main
+Username for 'https://github.com': sks123git
+Password for 'https://sks123git@github.com': 
+Enumerating objects: 70, done.
+Counting objects: 100% (70/70), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (65/65), done.
+Writing objects: 100% (70/70), 91.82 KiB | 5.10 MiB/s, done.
+Total 70 (delta 12), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (12/12), done.
+To https://github.com/sks123git/ratings-app.git
+ * [new branch]      main -> main
+macbook@gadgetzones-MacBook-Air Ratings % git config --global user.name "Shubham"
+macbook@gadgetzones-MacBook-Air Ratings % git config --global user.name          
+Shubham
+macbook@gadgetzones-MacBook-Air Ratings % git push origin main                   
+Everything up-to-date
+macbook@gadgetzones-MacBook-Air Ratings % git config --global user.email sks123git@gmail.com
+macbook@gadgetzones-MacBook-Air Ratings % git config                                  
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+macbook@gadgetzones-MacBook-Air Ratings % git config --global
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+macbook@gadgetzones-MacBook-Air Ratings % nano sample.swift
+
+  UW PICO 5.09                           File: sample.swift                            Modified  
+
+hi 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     [ Unknown Command: ^S ]                                     
+^G Get Help     ^O WriteOut     ^R Read File    ^Y Prev Pg      ^K Cut Text     ^C Cur Pos      
+^X Exit         ^J Justify      ^W Where is     ^V Next Pg      ^U UnCut Text   ^T To Spell     
